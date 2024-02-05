@@ -1,19 +1,19 @@
 [
     {
       "description": "Product description 1",
-      "name": "Product 1",
+      "name": "Coke",
       "price": 10.99,
       "date": "2021-01-01"
     },
     {
       "description": "Product description 2",
-      "name": "Product 2",
+      "name": "royal",
       "price": 19.99,
       "date": "2021-02-15"
     },
     {
       "description": "Product description 3",
-      "name": "Product 3",
+      "name": "rebisco",
       "price": 5.49,
       "date": "2021-03-30"
     }
