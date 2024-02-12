@@ -12,38 +12,66 @@ async function fetchAndDisplayProducts() {
 
         const productList = document.getElementById('product-list');
         const productListContainer = document.createElement('div');
-        productListContainer.style.display = 'flex'; 
-        productListContainer.style.flexWrap = 'wrap';
-        productListContainer.style.justifyContent = 'space-between';
+        productListContainer.classList.add('row'); // Add Bootstrap row class
+
+        // Create and append the title element
+        const titleElement = document.createElement('h2');
+        titleElement.textContent = 'Products';
+        productList.appendChild(titleElement);
 
         data.forEach(product => {
             const productCard = document.createElement('div');
-            productCard.classList.add('product-card');
+            productCard.classList.add('col-md-4', 'mb-4'); // Add Bootstrap column and margin-bottom classes
 
-            productCard.style.marginBottom = '20px';
-            productCard.style.padding = '10px';
-            productCard.style.border = '1px solid #ccc';
-            productCard.style.borderRadius = '5px';
-            productCard.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
-            productCard.style.width = 'calc(20% - 20px)';
-            productCard.style.verticalAlign = 'top';
+            // Bootstrap card creation
+            const card = document.createElement('div');
+            card.classList.add('card');
 
-            const productDescription = document.createElement('h3');
-            productDescription.textContent = `Description: ${product.description}`;
+            // Image
+            const image = document.createElement('img');
+            image.src = product.imageUrl;
+            image.classList.add('card-img-top'); // Add Bootstrap card image top class
 
-            const productName = document.createElement('h3');
+            const cardBody = document.createElement('div');
+            cardBody.classList.add('card-body');
+
+            const productName = document.createElement('h5');
+            productName.classList.add('card-title');
             productName.textContent = product.name;
 
+            const productDescription = document.createElement('p');
+            productDescription.classList.add('card-text');
+            productDescription.textContent = product.description;
+
             const productPrice = document.createElement('p');
+            productPrice.classList.add('card-text');
             productPrice.textContent = `Price: ₱${product.price}`;
 
             const productDate = document.createElement('p');
+            productDate.classList.add('card-text');
             productDate.textContent = `Date: ${product.date}`;
 
-            productCard.appendChild(productDescription);
-            productCard.appendChild(productName);
-            productCard.appendChild(productPrice);
-            productCard.appendChild(productDate);
+            // Bootstrap button creation
+            const addButton = document.createElement('button');
+            addButton.textContent = 'Add to Cart';
+            addButton.classList.add('btn', 'btn-primary'); // Add Bootstrap button classes
+            
+            // Add event listener to the button
+            let count = 0; // Initial count
+            addButton.addEventListener('click', () => {
+                count++;
+                addButton.textContent = `Add to Cart (${count})`;
+            });
+
+            cardBody.appendChild(productName);
+            cardBody.appendChild(productDescription);
+            cardBody.appendChild(productPrice);
+            cardBody.appendChild(productDate);
+            cardBody.appendChild(addButton);
+
+            card.appendChild(image); // Add image to card
+            card.appendChild(cardBody);
+            productCard.appendChild(card);
 
             productListContainer.appendChild(productCard);
         });
