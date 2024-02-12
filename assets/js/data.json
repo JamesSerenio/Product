@@ -1,21 +1,27 @@
 [
     {
-      "description": "Product description 1",
+      "description": "Coca-Cola is a carbonated, sweetened soft drink and is the world's best-selling soda. A popular nickname for Coca-Cola is Coke. The Coca-Cola Company claims that the beverage is sold in more than 200 countries. Coca-Cola was first made in Columbus, Georgia.",
       "name": "Coke",
-      "price": 10.99,
+      "price": 12.00,
       "date": "2021-01-01"
     },
     {
-      "description": "Product description 2",
-      "name": "royal",
-      "price": 19.99,
+      "description": "Royal Tru (often referred to simply as Royal) is a carbonated fruit-flavored soft drink brand owned by The Coca-Cola Company that is exclusive to the Philippines. The brand was introduced in 1922 by the original San Miguel Brewery.",
+      "name": "Royal",
+      "price": 15.00,
       "date": "2021-02-15"
     },
     {
-      "description": "Product description 3",
-      "name": "rebisco",
-      "price": 5.49,
-      "date": "2021-03-30"
+      "description": "Pepsi is a carbonated soft drink with a cola flavor, manufactured by PepsiCo. It was originally created and developed in 1893 by Caleb Bradham in the United States, and became known as Pepsi-Cola in 1898, before shortening to Pepsi in 1961.",
+      "name": "Pepsi",
+      "price": 13.00,
+      "date": "2021-03-25"
+    },
+    {
+      "description": "Crunchy Plain Crackers, perfect to start your day and as an on-the-go snack. Enjoy 4 pasobrang big Crackers per piece. Contains 10 pieces per pack. 4800092111822. The minimum purchase order quantity for the product is 1.",
+      "name": "Rebisco",
+      "price": 5.00,
+      "date": "2021-04-30"
     }
   ]
   
