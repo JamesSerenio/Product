@@ -3,25 +3,22 @@
       "description": "Coca-Cola is a carbonated, sweetened soft drink and is the world's best-selling soda. A popular nickname for Coca-Cola is Coke. The Coca-Cola Company claims that the beverage is sold in more than 200 countries. Coca-Cola was first made in Columbus, Georgia.",
       "name": "Coke",
       "price": 12.00,
-      "date": "2021-01-01"
+      "date": "2021-01-01",
+      "imageUrl": "https://vegnews.com/media/W1siZiIsIjM0NDk1L1ZlZ05ld3MuSXNDb2tlVmVnYW4uS2Fyb2xpbmFHcmFib3dza2EuUGV4ZWxzLmpwZyJdLFsicCIsImNyb3BfcmVzaXplZCIsIjE1OTd4OTQ0KzErMCIsIjE2MDB4OTQ2XiIseyJmb3JtYXQiOiJqcGcifV0sWyJwIiwib3B0aW1pemUiXV0/VegNews.IsCokeVegan.KarolinaGrabowska.Pexels.jpg?sha=e1e9b27253ef0717"
     },
     {
       "description": "Royal Tru (often referred to simply as Royal) is a carbonated fruit-flavored soft drink brand owned by The Coca-Cola Company that is exclusive to the Philippines. The brand was introduced in 1922 by the original San Miguel Brewery.",
       "name": "Royal",
       "price": 15.00,
-      "date": "2021-02-15"
+      "date": "2021-02-15",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzK3BqnaGqgphy75l1Ub0-xuoEPbiw1h89szbKGvzLwQ&s"
     },
     {
       "description": "Pepsi is a carbonated soft drink with a cola flavor, manufactured by PepsiCo. It was originally created and developed in 1893 by Caleb Bradham in the United States, and became known as Pepsi-Cola in 1898, before shortening to Pepsi in 1961.",
       "name": "Pepsi",
       "price": 13.00,
-      "date": "2021-03-25"
-    },
-    {
-      "description": "Crunchy Plain Crackers, perfect to start your day and as an on-the-go snack. Enjoy 4 pasobrang big Crackers per piece. Contains 10 pieces per pack. 4800092111822. The minimum purchase order quantity for the product is 1.",
-      "name": "Rebisco",
-      "price": 5.00,
-      "date": "2021-04-30"
+      "date": "2021-03-25",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT10EvaAHz8ZltFkcMnmL_ytPG2jQnLZ1C2hAJamw9UKg&s"
     }
   ]
   
